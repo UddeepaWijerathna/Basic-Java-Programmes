@@ -9,6 +9,7 @@ class prime
 		{	
 			if (a % i==0){
 				i++;			//use break to come out of loop...immidiately
+							//other wise i value will keep on increasing and i==2 will not give prime always
 				break;
 			}
 		}
